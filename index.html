@@ -1,80 +1,267 @@
 <!doctype html>
-<section id="precios" class="section">
-<div class="container">
-<h2>Packs & Precios</h2>
-<div class="pricing-grid">
-<div class="card">
-<h3>Flash</h3>
-<p class="price">49€</p>
-<p>10 fotos — entrega 48h</p>
-<a class="btn btn-outline" href="https://wa.me/34631466877?text=Quiero%20el%20pack%20Flash">Reservar</a>
-</div>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Altria.Visuals — Fotografía & Vídeo Profesional para Bares (Bilbao)</title>
+  <meta name="description" content="Altria.Visuals — Fotografía y vídeo profesional para bares y restaurantes en Bilbao y alrededores del País Vasco. Reserva por WhatsApp.">
+  <meta name="robots" content="index, follow">
 
+  <!-- Open Graph -->
+  <meta property="og:title" content="Altria.Visuals — Fotografía & Vídeo profesional">
+  <meta property="og:description" content="Sesiones express, packs para redes, entregas en 48h. Cobertura: Bilbao y alrededores del País Vasco. Reserva por WhatsApp.">
+  <meta property="og:image" content="img/foto1.webp">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
 
-<div class="card featured">
-<h3>Estándar</h3>
-<p class="price">79€</p>
-<p>20 fotos + mini-clip</p>
-<a class="btn btn-primary" href="https://wa.me/34631466877?text=Quiero%20el%20pack%20Estandar">Reservar</a>
-</div>
+  <!-- Favicon (pon tu favicon en /img/favicon-32.png) -->
+  <link rel="icon" href="img/favicon-32.png" sizes="32x32">
 
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 
-<div class="card">
-<h3>Premium</h3>
-<p class="price">120€</p>
-<p>40 fotos + vídeo 30s + pack redes</p>
-<a class="btn btn-outline" href="https://wa.me/34631466877?text=Quiero%20el%20pack%20Premium">Reservar</a>
-</div>
-</div>
-</div>
-</section>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
 
+  <!-- Structured data (Organization minimal) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"Altria.Visuals",
+    "description":"Fotografía y vídeo profesional para bares y restaurantes en Bilbao y alrededores del País Vasco.",
+    "telephone":"+34631466877",
+    "areaServed":"País Vasco",
+    "url":"https://tuusuario.github.io/repositorio/"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#maincontent">Saltar al contenido</a>
 
-<!-- Contacto -->
-<section id="contacto" class="section dark">
-<div class="container contact-grid">
-<div class="contact-card">
-<h2>Contacto & Reserva</h2>
-<p>Reserva rápida vía WhatsApp — contestamos en menos de 24 horas.</p>
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-grid">
+      <div class="brand">
+        <div class="logo-mark" aria-hidden="true">AV</div>
+        <div>
+          <h1 class="brand-title">Altria.Visuals</h1>
+          <div class="brand-sub">Fotografía & Vídeo · Bilbao · País Vasco</div>
+        </div>
+      </div>
 
+      <nav class="main-nav" role="navigation" aria-label="Navegación principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#precios">Packs</a>
+        <a href="#herramientas">Herramientas</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
 
-<ul class="contact-list">
-<li><strong>WhatsApp:</strong> <a href="https://wa.me/34631466877?text=Hola!%20Quiero%20reservar">+34 631 466 877</a></li>
-<li><strong>Email:</strong> <a href="mailto:altria.visuals@gmail.com">altria.visuals@gmail.com</a></li>
-<li><strong>Zona:</strong> Bilbao y alrededores del País Vasco</li>
-</ul>
+      <div class="header-cta">
+        <a class="btn-whatsapp" href="https://wa.me/34631466877?text=Hola%20Altria.Visuals%2C%20quiero%20informaci%C3%B3n%20sobre%20una%20sesion">WhatsApp — 631 466 877</a>
+      </div>
+    </div>
+  </header>
 
+  <!-- HERO -->
+  <main id="maincontent">
+    <section class="hero" role="region" aria-label="Hero principal">
+      <div class="hero-media">
+        <video id="heroVideo" autoplay muted loop playsinline preload="metadata" poster="img/foto1.webp">
+          <source src="video/hero.webm" type="video/webm">
+          <source src="video/hero.mp4" type="video/mp4">
+          <!-- Si no hay video, poster (img/foto1.webp) se mostrará -->
+        </video>
+        <div class="hero-overlay"></div>
+      </div>
 
-<a class="btn btn-primary large" href="https://wa.me/34631466877?text=Hola!%20Quiero%20reservar%20una%20sesion">Reservar por WhatsApp</a>
-</div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h2>Transformamos la imagen de tu bar.<br><span class="accent">Fotografía y vídeo que vende.</span></h2>
+          <p class="lead">Sesiones express con entrega en 48h. Packs orientados a redes, cartas y promociones. Cobertura: Bilbao y alrededores del País Vasco.</p>
 
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://wa.me/34631466877?text=Hola%20quiero%20reservar">Reservar por WhatsApp</a>
+            <a class="btn btn-outline" href="#portfolio">Ver portfolio</a>
+          </div>
 
-<aside class="contact-cta">
-<h3>Prueba rápida gratuita</h3>
-<p>Solicita una imagen de prueba para ver cómo trabajamos (oferta válida para nuevos clientes en Euskadi).</p>
-<a class="btn btn-ghost" href="https://wa.me/34631466877?text=Quiero%20prueba%20gratuita">Solicitar prueba</a>
-</aside>
-</div>
-</section>
+          <div class="marquee" aria-hidden="true">
+            <div class="marq-inner">Oferta: sesión express + 10 fotos optimizadas — entrega 48h • Descuentos por packs mensuales • Reserva por WhatsApp.</div>
+          </div>
+        </div>
 
+        <aside class="hero-card" aria-label="Reservas rápidas">
+          <h4>Reserva express</h4>
+          <p>Sesión rápida para locales — fotos profesionales listas para web y redes en 48 horas.</p>
+          <div class="contact-quick">
+            <div><small>WhatsApp</small><div class="strong"><a href="https://wa.me/34631466877">631 466 877</a></div></div>
+            <div><small>Email</small><div class="strong"><a href="mailto:altria.visuals@gmail.com">altria.visuals@gmail.com</a></div></div>
+          </div>
+          <a class="btn btn-primary small" href="https://wa.me/34631466877?text=Reserva%20express">Reservar ahora</a>
+        </aside>
+      </div>
+    </section>
 
-<!-- Footer -->
-<footer class="site-footer">
-<div class="container footer-grid">
-<div>
-<img src="/img/logo-av.svg" alt="Altria.Visuals" class="logo-sm">
-<p>© Altria.Visuals · Fotografía profesional para bares. Tel: <a href="https://wa.me/34631466877">631 466 877</a></p>
-</div>
+    <!-- Servicios -->
+    <section id="servicios" class="section">
+      <div class="container">
+        <h3>Servicios diseñados para bares y locales</h3>
+        <p class="section-sub">Fotografía de interiores, platos, equipo y material promocional. Vídeos cortos para redes y clips de producto.</p>
 
+        <div class="services-grid">
+          <article class="service-card">
+            <h4>Sesión Flash</h4>
+            <p>10 fotos profesionales + retoque ligero. Entrega 48h.</p>
+          </article>
 
-<nav class="footer-nav">
-<a href="/privacy.html">Política de privacidad</a>
-<a href="#contacto">Contacto</a>
-</nav>
-</div>
-</footer>
-</main>
+          <article class="service-card">
+            <h4>Pack Social</h4>
+            <p>20 fotos + mini-clip 15s optimizado para Instagram / TikTok.</p>
+          </article>
 
+          <article class="service-card">
+            <h4>Premium</h4>
+            <p>40 fotos + vídeo 30s + kit para redes (banners, mini clips, stories).</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
+    <!-- Portfolio -->
+    <section id="portfolio" class="section dark">
+      <div class="container">
+        <h3>Portfolio destacado</h3>
+        <p class="section-sub">Ejemplos reales de trabajos en locales — imágenes de muestra incluidas.</p>
+
+        <div class="gallery" aria-live="polite">
+          <!-- Nombres exactos: img/foto1.webp ... img/foto10.webp -->
+          <figure><img src="img/foto1.webp" alt="Plato destacado" loading="lazy"></figure>
+          <figure><img src="img/foto2.webp" alt="Bar iluminado" loading="lazy"></figure>
+          <figure><img src="img/foto3.webp" alt="Detalle de barra" loading="lazy"></figure>
+          <figure><img src="img/foto4.webp" alt="Plato gourmet" loading="lazy"></figure>
+          <figure><img src="img/foto5.webp" alt="Montaje mesa" loading="lazy"></figure>
+          <figure><img src="img/foto6.webp" alt="Cóctel" loading="lazy"></figure>
+          <figure><img src="img/foto7.webp" alt="Ambiente nocturno" loading="lazy"></figure>
+          <figure><img src="img/foto8.webp" alt="Plato principal" loading="lazy"></figure>
+          <figure><img src="img/foto9.webp" alt="Mesa con clientes" loading="lazy"></figure>
+          <figure><img src="img/foto10.webp" alt="Postre" loading="lazy"></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Packs -->
+    <section id="precios" class="section">
+      <div class="container">
+        <h3>Packs & Precios</h3>
+        <div class="prices-grid">
+          <div class="pack">
+            <h4>Flash</h4>
+            <div class="price">49€</div>
+            <p>10 fotos — entrega 48h</p>
+            <a class="btn btn-outline" href="https://wa.me/34631466877?text=Pack%20Flash">Reservar</a>
+          </div>
+
+          <div class="pack featured">
+            <h4>Estándar</h4>
+            <div class="price">79€</div>
+            <p>20 fotos + mini-clip</p>
+            <a class="btn btn-primary" href="https://wa.me/34631466877?text=Pack%20Est%C3%A1ndar">Reservar</a>
+          </div>
+
+          <div class="pack">
+            <h4>Premium</h4>
+            <div class="price">120€</div>
+            <p>40 fotos + vídeo 30s + pack redes</p>
+            <a class="btn btn-outline" href="https://wa.me/34631466877?text=Pack%20Premium">Reservar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Herramientas / Equipamiento -->
+    <section id="herramientas" class="section dark">
+      <div class="container">
+        <h3>Nuestras herramientas</h3>
+        <p class="section-sub">Equipo profesional para conseguir resultados consistentes: fotografía, vídeo y edición de alto nivel.</p>
+
+        <div class="tools-grid">
+          <div class="tool">
+            <h4>📱 iPhone 14 Pro</h4>
+            <p>Captura con sensor avanzado, colores naturales y estabilización óptica para clips estilo lifestyle.</p>
+          </div>
+
+          <div class="tool">
+            <h4>📸 Cámara full-frame (Canon / Sony)</h4>
+            <p>Ópticas profesionales, rango dinámico amplio y rendimiento en baja luz para interiores y platos.</p>
+          </div>
+
+          <div class="tool">
+            <h4>🎥 GoPro / Acción (timelapse y B-roll)</h4>
+            <p>Tomamos tomas dinámicas, movimiento y planos creativos en espacios reducidos.</p>
+          </div>
+
+          <div class="tool">
+            <h4>💡 Iluminación profesional</h4>
+            <p>Control de luz continuo y flashes de estudio para estilismo de platos y sombreado cinematográfico.</p>
+          </div>
+
+          <div class="tool">
+            <h4>🖥️ Edición & Color Grading</h4>
+            <p>Retoque profesional, entrega en formatos adaptados para web y redes.</p>
+          </div>
+
+          <div class="tool">
+            <h4>🔊 Audio & Vídeo</h4>
+            <p>Micrófonos y edición para clips con sonido ambiente o narración.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section">
+      <div class="container contact-wrap">
+        <div class="contact-main">
+          <h3>Contacto & Reserva</h3>
+          <p>Reserva rápida por WhatsApp — respondemos en menos de 24 horas.</p>
+
+          <ul class="contact-list">
+            <li><strong>WhatsApp:</strong> <a href="https://wa.me/34631466877">+34 631 466 877</a></li>
+            <li><strong>Email:</strong> <a href="mailto:altria.visuals@gmail.com">altria.visuals@gmail.com</a></li>
+            <li><strong>Zona:</strong> Bilbao y alrededores del País Vasco</li>
+          </ul>
+
+          <a class="btn btn-primary large" href="https://wa.me/34631466877?text=Quiero%20reservar">Reservar por WhatsApp</a>
+        </div>
+
+        <aside class="contact-card">
+          <h4>Prueba Rápida</h4>
+          <p>Pide una imagen de prueba para ver nuestro estilo (oferta para nuevos clientes en Euskadi).</p>
+          <a class="btn btn-ghost" href="https://wa.me/34631466877?text=Quiero%20prueba%20gratuita">Solicitar prueba</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>© <strong>Altria.Visuals</strong> · Fotografía profesional para bares · <a href="https://wa.me/34631466877">631 466 877</a></div>
+        <nav class="footer-links">
+          <a href="privacy.html">Política de privacidad</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button class="lb-close" aria-label="Cerrar">×</button>
+    <img id="lb-img" alt="">
+  </div>
+
+  <script src="js/main.js" defer></script>
 </body>
 </html>
